@@ -3,7 +3,6 @@ ARG TARGETARCH
 
 ARG HUGGINGFACE_MODEL=fish-speech-1.4
 ARG HF_ENDPOINT=https://huggingface.co
-
 WORKDIR /opt/fish-speech
 
 RUN set -ex \
